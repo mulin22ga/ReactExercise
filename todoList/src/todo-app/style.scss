@@ -1,0 +1,84 @@
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+
+ul li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+
+*:focus {
+  outline: none
+}
+
+.todo-app {
+  text-align: center;
+}
+
+.todo-content {
+  text-align: center;
+}
+
+.add-panel {
+  height: 40px;
+}
+
+.add-input {
+  padding: 0px 5px;
+  height: 30px;border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  vertical-align:middle;
+}
+
+.add-btn {
+  margin-left: 10px;
+  height: 30px;
+  color: #0099CC;
+  background-color: #FFF;
+  border: none;
+  border: 1px solid #0099CC;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.add-btn:hover {
+  color: #FFF;
+  background-color: #0099CC;
+}
+
+.todo-list {
+  margin: 1em auto;
+  width: 400px;
+}
+
+.todo {
+  text-align: left;
+  line-height: 40px;
+  height: 30px;
+  margin: 2px 0px;
+  position: relative;
+}
+
+.todo-text {
+  margin-left: 10px;
+  font-size: 24px;
+  position: absolute;
+}
+
+.del-btn {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  color: rgb(252, 88, 88);
+  background-color: #FFF;
+  border: none;
+  border: 1px solid rgb(252, 88, 88);
+  border-radius: 5px;
+}
+
+.del-btn:hover {
+  color: #FFF;
+  background-color: rgb(252, 88, 88);
+}

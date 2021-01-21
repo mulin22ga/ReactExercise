@@ -1,0 +1,17 @@
+.sass-cache
+node_modules/
+.tmp
+.travis.yml
+*.sublime-workspace
+*.orig
+*.suo
+*.user
+/dev
+*.gen.jsx
+*.gen.scss
+/dist
+/www
+/platforms
+/plugins
+.DS_Store
+.history
